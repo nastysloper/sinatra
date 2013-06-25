@@ -17,11 +17,6 @@ get '/contact' do
   slim :contact
 end
 
-get '/instance' do
-  @title= 'instance'
-  slim :show
-end
-
 not_found do
   slim :not_found
 end
